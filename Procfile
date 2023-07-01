@@ -1,1 +1,1 @@
-web: gunicorn  portfolio.wsgi --log-file -
+web: gunicorn  Aviato.wsgi --log-file -

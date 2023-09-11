@@ -32,6 +32,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'feeds',
     'ckeditor',
+    'common',
+    'login_system',
+    'crispy_forms',
+    'chatbot',
 
 ]
 
@@ -129,3 +133,5 @@ STATICFILES_DIRS = [
 
 MEDIA_URL = '/images/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
+
+AUTH_USER_MODEL = 'common.user'

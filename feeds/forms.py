@@ -1,0 +1,1 @@
+from ..common.forms import UserRegistrationForm, NormalUserRegistrationForm
